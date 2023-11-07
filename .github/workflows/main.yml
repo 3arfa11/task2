@@ -16,4 +16,6 @@ jobs:
       - name: 'Testing github'
         run: pwd
       - name: 'printing'
-        run: echo Mohamed    
+        run: echo Mohamed
+      - name: 'Listing'
+        run: ls      
