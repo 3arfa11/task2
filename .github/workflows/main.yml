@@ -13,15 +13,8 @@ jobs:
 
 
     steps:
-      - name: 'Testing github'
-        run: pwd
-        
-      - name: 'printing'
-        run: echo Mohamed
-
-      - name: 'Listing'
-        run: ls 
+    
       - uses: actions/checkout@v3    
 
-      - name: 'Listing'
-        run: ls     
+      - name: "LOGIN"
+        run: docker login --username samii11 --password dckr_pat_E_MY3yCowVUSCDqTu9PoNpNqmlM
